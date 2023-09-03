@@ -27,8 +27,7 @@ class MyApp extends StatelessWidget {
         '/fromYoutube': (context) => const PlayVideoFromYoutube(),
         '/fromAsset': (context) => const PlayVideoFromAsset(),
         '/fromNetwork': (context) => const PlayVideoFromNetwork(),
-        '/fromNetworkQualityUrls': (context) =>
-            const PlayVideoFromNetworkQualityUrls(),
+        '/fromNetworkQualityUrls': (context) =>const PlayVideoFromNetworkQualityUrls(),
         '/customVideo': (context) => const CustomVideoControlls(),
       },
       home: const MainPage(),
